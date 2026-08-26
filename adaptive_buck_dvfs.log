@@ -1,0 +1,13 @@
+LTspice 26.0.1 for Windows
+Circuit: D:\Projects\Buck Converter\adaptive_buck_dvfs.net
+Start Time: Wed Aug 26 14:30:55 2026
+Options:plotwinsize=0 reltol=2e-3
+D:\Projects\Buck Converter\adaptive_buck_dvfs.net(5): No such node.
+BIIN VIN 0 I=I(VSNS)*V(PWM)/5
+                       ^^^
+D:\Projects\Buck Converter\adaptive_buck_dvfs.net(6): No such node.
+BSW NC_02 0 V=V(VIN)*V(PWM)/5
+                       ^^^
+D:\Projects\Buck Converter\adaptive_buck_dvfs.net(13): No such node.
+BPWM NC_07 0 V=2.5*(1+tanh(40*(V(COMP)-V(VIN)*V(SAW))))
+                                                ^^^
